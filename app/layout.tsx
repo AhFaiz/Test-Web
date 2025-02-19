@@ -24,7 +24,7 @@ export default function RootLayout({
             <div className="flex justify-between items-center h-16">
               <Link href="/" className="flex items-center space-x-2">
                 <Flame className="h-8 w-8 text-blue-600" />
-                <span className="font-bold text-xl">GasRafi</span>
+                <span className="font-bold text-xl">GasKita</span>
               </Link>
               <div className="hidden md:flex space-x-8">
                 <Link href="/" className="text-gray-700 hover:text-blue-600">Beranda</Link>
