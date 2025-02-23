@@ -22,7 +22,6 @@ interface Product {
   price: string;
   description: string;
   image: string;
-  category?: string;
   stock?: string;
 }
 
@@ -62,7 +61,6 @@ export default function Products() {
           price: "Rp 25.000",
           description: "Gas LPG ukuran 3kg untuk kebutuhan rumah tangga sehari-hari. Cocok untuk penggunaan rumah tangga kecil hingga menengah.",
           image: "https://images.unsplash.com/photo-1585944672394-4c58a015c1fb?auto=format&fit=crop&q=80&w=500",
-          category: "Rumah Tangga",
           stock: "Tersedia"
         },
         {
@@ -71,7 +69,6 @@ export default function Products() {
           price: "Rp 150.000",
           description: "Gas LPG ukuran 12kg untuk kebutuhan bisnis dan rumah tangga. Ideal untuk dapur komersial dan rumah tangga besar.",
           image: "https://images.unsplash.com/photo-1585944672394-4c58a015c1fb?auto=format&fit=crop&q=80&w=500",
-          category: "Bisnis",
           stock: "Tersedia"
         },
         {
@@ -80,7 +77,6 @@ export default function Products() {
           price: "Hubungi Kami",
           description: "Gas untuk kebutuhan industri dengan berbagai ukuran. Solusi lengkap untuk kebutuhan gas industri Anda.",
           image: "https://images.unsplash.com/photo-1585944672394-4c58a015c1fb?auto=format&fit=crop&q=80&w=500",
-          category: "Industri",
           stock: "Pre-Order"
         }
       ];
