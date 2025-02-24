@@ -24,7 +24,7 @@ export default function RootLayout({
             <div className="flex justify-between items-center h-16">
               <Link href="/" className="flex items-center space-x-2">
                 <Flame className="h-8 w-8 text-blue-600" />
-                <span className="font-bold text-xl">GasRafi</span>
+                <span className="font-bold text-xl">GasKita</span>
               </Link>
               <div className="hidden md:flex space-x-8">
                 <Link href="/" className="text-gray-700 hover:text-blue-600">Beranda</Link>
@@ -40,7 +40,7 @@ export default function RootLayout({
           <div className="max-w-6xl mx-auto px-4">
             <div className="grid md:grid-cols-3 gap-8">
               <div>
-                <h3 className="text-lg font-semibold mb-4">GasRafi</h3>
+                <h3 className="text-lg font-semibold mb-4">GasKita</h3>
                 <p className="text-gray-400">
                   Solusi terpercaya untuk kebutuhan gas Anda. Melayani dengan kualitas terbaik 24/7.
                 </p>
