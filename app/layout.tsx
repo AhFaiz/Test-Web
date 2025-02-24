@@ -40,7 +40,7 @@ export default function RootLayout({
           <div className="max-w-6xl mx-auto px-4">
             <div className="grid md:grid-cols-3 gap-8">
               <div>
-                <h3 className="text-lg font-semibold mb-4">GasKita</h3>
+                <h3 className="text-lg font-semibold mb-4">GasRafi</h3>
                 <p className="text-gray-400">
                   Solusi terpercaya untuk kebutuhan gas Anda. Melayani dengan kualitas terbaik 24/7.
                 </p>
